@@ -1,16 +1,21 @@
-# flutter_bloc_arc_management
+# Flutter BLoC Counter Example
 
-A new Flutter project.
+This is a simple Flutter application demonstrating the BLoC (Business Logic Component) pattern using a counter example. The app features incrementing and decrementing a counter value using the BLoC architecture.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Increment and decrement a counter
+- Reactive UI updates with `BlocBuilder`
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Bloc (flutter_bloc package)
+- Equatable (for state comparison)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter_bloc_counter_example.git
+   cd flutter_bloc_counter_example
