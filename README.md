@@ -3,9 +3,10 @@
 This is a simple Flutter application demonstrating the BLoC (Business Logic Component) pattern using a counter example. The app features incrementing and decrementing a counter value using the BLoC architecture.
 
 ## Features
-
 - Increment and decrement a counter
-- Reactive UI updates with `BlocBuilder`
+- Interactive color changing using a slider.
+- Enable or disable notifications with a switch button.
+- Implementation of multiple Bloc providers to manage different states.
 
 ## Technologies Used
 
@@ -13,9 +14,4 @@ This is a simple Flutter application demonstrating the BLoC (Business Logic Comp
 - Bloc (flutter_bloc package)
 - Equatable (for state comparison)
 
-## Setup
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/flutter_bloc_counter_example.git
-   cd flutter_bloc_counter_example
